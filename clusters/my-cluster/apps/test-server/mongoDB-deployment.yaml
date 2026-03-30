@@ -23,7 +23,7 @@ spec:
   resources:
     requests:
       storage: 1Gi
-  volumeName: mongo-pv   
+  volumeName: mongo-pv   # test
 ---
 
 apiVersion: apps/v1
