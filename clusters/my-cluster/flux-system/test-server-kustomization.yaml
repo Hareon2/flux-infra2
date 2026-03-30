@@ -11,4 +11,3 @@ spec:
   path: "./clusters/my-cluster/apps/test-server" # test
   prune: true
   targetNamespace: default
-  wait: true
