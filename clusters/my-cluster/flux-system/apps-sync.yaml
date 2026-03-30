@@ -8,6 +8,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: "./clusters/my-cluster/test-server" 
+  path: "./clusters/my-cluster/apps" 
   prune: true
   
