@@ -121,6 +121,7 @@ data:
 apiVersion: v1
 kind: ConfigMap
 metadata:
+    namespace: default
     name: frontend-nginx-cm
 data:
     default.conf: |
