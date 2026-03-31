@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: hareon/frontend:v1.0.1 # {"$imagepolicy": "flux-system:frontend"}
+          image: hareon/frontend:v1.0.2 # {"$imagepolicy": "flux-system:frontend"}
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
