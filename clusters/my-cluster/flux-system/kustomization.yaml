@@ -4,3 +4,6 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 - apps-sync.yaml  
+- image-automation.yaml
+- image-policy.yaml
+- image-repo.yaml

@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: hareon/backend:v1
+        image: hareon/backend:v1 # {"$imagepolicy": "flux-system:backend"}
         imagePullPolicy: IfNotPresent
         env:
         - name: profile
